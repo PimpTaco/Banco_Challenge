@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 98vh;
+    width: 98vw;
+}
+
+
+/* main section */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #D2E4F1;
+    height: 85vh;
+    width: 90vw;
+    border-radius: 50px;
+    
+}
+
+.LogoBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#f7f7f7;
+    border-radius: 50px;
+    width: 450px;
+    margin: 45px 0px;
+    padding: 10px;
+    
+    
+}
+
+h1{
+    margin: 15px;
+}
+
+.LoginBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 300px;
+    color: #f7f7f7;
+    background-color: #2952ac;
+    font-family: 'Fira Sans', sans-serif;
+    border-radius: 30px;
+
+}
+
+input{
+    border-radius: 50px;
+    font-family: 'Fira Sans', sans-serif;
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+}
+
+button{
+    border-radius: 50px;
+    font-family: 'Fira Sans', sans-serif;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+}
+
