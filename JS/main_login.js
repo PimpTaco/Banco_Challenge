@@ -1,14 +1,11 @@
-
-    var cuentas = [
+ var cuentas = [
         {Nombre: "Marcos Vleeschower", Saldo: 300, Password:"Spartan17", Usuario:"Vleeschowder"},
         {Nombre: "Manuel Ramos", Saldo: 666, Password:"yungtaco420", Usuario:"PimpTaco"},
         {Nombre: "Salvador Soto", Saldo: 420, Password:"bigsoto69", Usuario:"TheSotoKing"}
     ]
 
-    // console.log (cuentas[1].Saldo)
 
 // variables del Login
-
 // inputs
 var loginuserRequest = document.getElementById("loginuserRequest")
 var loginpasswordRequest = document.getElementById("loginpasswordRequest")
@@ -18,7 +15,6 @@ var loginButton = document.getElementById("loginButton")
 
     
 // // Function del Login Manual
-
 function redirectHome (){
 
     var userSelected = loginuserRequest.value
@@ -48,18 +44,3 @@ function redirectHome (){
 }
 
 loginButton.addEventListener("click", redirectHome)
-
-function getlocalStorage (){
-    if (localStorage.getItem ("cuenta")){
-        var clienteSeleccionado = JSON.parse (localStorage.getItem ("cuenta"));
-        console.log(clienteSeleccionado)
-    } else{
-        console.log ("No hay entradas")
-    }
-
-}
-
-getlocalStorage();
-
-
-

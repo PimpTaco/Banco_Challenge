@@ -6,6 +6,7 @@ body{
 .navbar{
     background-color: #D2E4F1 !important;
 }
+
 .containerNavBar img{
     height: 50px;
 }
@@ -17,8 +18,7 @@ body{
 .row-opciones{
     background-color: #EEEEEE;
     margin-left: 5%;
-    margin-right: 5%;
-    
+    margin-right: 5%;  
     justify-content: center;
 }
 
@@ -32,7 +32,6 @@ body{
     border-radius: 20px;
     padding: 2%;
 }
-
 
 .row-opciones span{
     font-size: 180px;
@@ -65,7 +64,6 @@ body{
     padding-top: 20px;
 }
 
-
  /* Medias */
  @media screen and (max-width: 1400px) {
     .row-opciones a{
@@ -78,13 +76,11 @@ body{
 }
 
 @media screen and (max-width: 1100px) {
-    
         .row-opciones a{
             height: 220px;
         }
         .row-opciones span{
-            font-size: 140px;
-            
+            font-size: 140px; 
         }
 
         #botonsalir {
@@ -108,9 +104,9 @@ body{
     .row-opciones a{
         height: 160px;
     }
+    
     .row-opciones span{
         font-size: 100px;
-        
     }
 
     .row-opciones p{
@@ -144,8 +140,7 @@ body{
         height: 120px;
     }
     .row-opciones span{
-        font-size: 60px;
-        
+        font-size: 60px;  
     }
 
     .row-opciones p{
@@ -188,4 +183,3 @@ body{
         font-size: 16px;
     }
 }
-

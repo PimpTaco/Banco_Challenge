@@ -9,7 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="CSS/styleDepositar.css">
+        <link rel="stylesheet" href="CSS/styleRecargar.css">
         <title>Retiro</title>
     </head>
     <body>
@@ -22,26 +22,32 @@
             <div class="row justify-content-center align-items-center" id="b">
                 <div class="col-auto">
                     <h2>Tu saldo disponible es:</h2>
-                    <h1 id="saldo">$8000</h1>
+                    <h1 id="saldox"></h1>
                 </div>
             </div>
             <div class="row" id="y">
                 <div class="col-4 offset-2">
                     <div class="input-group mb-3">
-                        <input type="input" id="deposito">
-                    </div>
-                </div>
-            </div>
-            <div class="row" id="y">
-                <div class="col-4 offset-2">
-                    <div class="input-group mb-3">
-                        <input type="input" id="deposito">
+                        <input type="input" id="num">
                     </div>
                 </div>
                 <div class="col-6">
-                    <button type="button" class="btn btn-primary" id="depositar">Retirar</button>
+                    <div class="input-group mb-3">
+                        <h2>Numero de telefono</h2>
+                    </div>
+                </div>
+                <div class="col-4 offset-2">
+                    <div class="input-group mb-3">
+                        <input type="input" id="recarga">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="input-group mb-3">
+                        <h2>Monto</h2>
+                    </div>
                 </div>
             </div>
+            <button type="button" class="btn btn-primary" id="recargar">Recargar</button>
             <div class="row row align-items-end justify-content-between" id="final">
                 <div class="col-4">
                     <a class="btn btn-primary" id="botonmenuprincipal" href="home.html">
@@ -58,5 +64,6 @@
                 </div>   
             </div>
         </div>
+        <script src="JS/main_recarga.js"></script>
     </body>
 </html>
