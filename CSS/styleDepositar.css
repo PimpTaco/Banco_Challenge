@@ -1,4 +1,4 @@
-.container-fluid{
+body{
     font-family: 'Fira Sans', sans-serif;
     background-color:#D2E4F1;
 }
@@ -27,11 +27,17 @@
     height: 100px;
     width: 425px;
     background-color: #2952ac;
+    float: left;
+    margin-left: 100px;
+    padding-top: 20px;
 }
-#botonsalir{
-    
+
+#botonsalir {
     height: 100px;
     width: 425px;
+    float: right;
+    margin-right: 100px;
+    padding-top: 20px;
 }
 #saldo{
     text-align: center;

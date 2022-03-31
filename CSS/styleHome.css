@@ -56,14 +56,13 @@ body{
     width: 5%;
 }
 
-.botonSalir{
-    text-decoration: none;
-    background-color: red;
-    color: white;
+#botonsalir {
+    height: 100px;
+    width: 425px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
 }
-
-
-
 
 
  /* Medias */
@@ -81,6 +80,11 @@ body{
         .row-opciones span{
             font-size: 140px;
             
+        }
+
+        #botonsalir {
+            height: 80px;
+            width: 400px;
         }
 }
 
@@ -103,6 +107,11 @@ body{
     .row-opciones{
         margin-right: 3%;
         margin-left: 3%;
+    }
+
+    #botonsalir {
+        height: 70px;
+        width: 330px;
     }
 }
 
@@ -131,11 +140,19 @@ body{
 
 @media screen and (max-width: 500px) {
     .row-opciones p{
-        font-size: 9px;
+        font-size: 11px;
     }
 
     .row-opciones .col-2 {
         width: 47% !important;
+    }
+
+    #botonsalir {
+        height: 70px;
+        width: 90%;
+        float: none;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
 
