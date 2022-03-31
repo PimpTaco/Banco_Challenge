@@ -6,16 +6,15 @@ body{
 
     height: 100px;
     margin: 10px;
-   
 }
+
 #b{ 
     height:400px;
-   
 }
+
 #final{
     height:150px;
     background-color:#D2E4F1;
-
 }
 #botonmenuprincipal{
     height: 100px;
@@ -34,42 +33,25 @@ body{
     padding-top: 20px;
 }
 
-
-#saldo{
+#saldox{
     text-align: center;
 }
 
-
-
 /* Medias */
-@media screen and (max-width: 1400px) {
-    
-}
-
 @media screen and (max-width: 1100px) {
-    
-    
-
         #botonsalir, #botonmenuprincipal {
             height: 80px;
             width: 300px;
             padding-top: 17px;
         }
-
-        
-    
 }
 
 @media screen and (max-width: 800px) {
-    
-
     #botonsalir, #botonmenuprincipal {
         height: 70px;
         width: 150px;
         padding-top: 12px;
     }
-
-    
 }
 
 @media screen and (max-width: 575px) {
@@ -80,10 +62,7 @@ body{
     }
 }
 
-
 @media screen and (max-width: 500px) {
-    
-
     #botonmenuprincipal{
         height: 70px;
         width: 90%;
@@ -98,7 +77,5 @@ body{
         float: none;
         margin-left: 5%;
         margin-right: 5%;
-    }
-
-    
+    }  
 }
