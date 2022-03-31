@@ -11,8 +11,8 @@ body{
     height:200px;
 }
 
-#y{
-    height:200px;
+#y{ 
+    margin-bottom: 200px;
 }
 
 #final{
@@ -37,17 +37,22 @@ body{
     padding-top: 20px;
 }
 
-#depositar, #retirar, #recargar{
+#depositar, #retirar{
     background-color: #2952ac;
     height: 100px;
     width: 425px;
+    float: right;
+    margin-right: 300px;
+    
 }
 
-#deposito, #retiro, #recarga, #num{
+#deposito, #retiro{
     height: 100px;
     width:425px;
     font-size: 70px;
     text-align: right;
+    float: left;
+    margin-left: 300px;
 }
 
 #saldox{
@@ -55,11 +60,36 @@ body{
 }
 
 /* Medias */
+
+@media screen and (max-width: 1500px) {
+ 
+    
+    #deposito, #retiro {
+        width:320px;
+        margin-left: 200px;
+    }
+
+    #depositar, #retirar{
+        width: 320px;
+        margin-right: 200px;
+    }
+}
+
 @media screen and (max-width: 1100px) {
         #botonsalir, #botonmenuprincipal {
             height: 80px;
-            width: 300px;
+            width: 280px;
             padding-top: 17px;
+        }
+
+        #deposito, #retiro {
+            width:300px;
+            margin-left: 20px;
+        }
+    
+        #depositar, #retirar{
+            width: 300px;
+            margin-right: 50px;
         }
 }
 
@@ -68,6 +98,18 @@ body{
         height: 70px;
         width: 150px;
         padding-top: 12px;
+    }
+
+    #deposito, #retiro {
+        width:90%;
+        float: none;
+        margin: 0px 5% 0px 5%;
+    }
+
+    #depositar, #retirar{
+        width:90%;
+        float: none;
+        margin: 0px 5% 0px 5%;
     }
 }
 

@@ -2,26 +2,26 @@ var cuenta = JSON.parse(localStorage.getItem("cuenta"));
 var saldo = cuenta.Saldo
 // Saldo que se mostrará
 var saldox = document.getElementById("saldox")
-// Input de añadir dinero
-var deposito = document.getElementById("retiro")
-//Boton deposito
-var depositar = document.getElementById("retirar")
+// Input de retirar dinero
+var retiro = document.getElementById("retiro")
+//Boton retiro
+var retirar = document.getElementById("retirar")
 saldox.innerHTML = parseFloat(saldo)
 
 
-function depositarx() {
+function retirarx() {
     dinero = parseInt(saldox.innerHTML)
-    disminuir = parseInt(deposito.value)
-    if(dinero-agregar>=10){
+    disminuir = parseInt(retiro.value)
+    if(dinero-disminuir>=10){
         saldox.innerHTML = dinero - disminuir
         alert("Tu retiro se ha realizado correctamente")
-        deposito.value =""
+        retiro.value =""
         cuenta.Saldo= dinero - disminuir;
         localStorage.setItem ("cuenta", JSON.stringify(cuenta))
     } else {
         alert("Lo siento, no es posible retirar esta cantidad.")
-        deposito.value =""
+        retiro.value =""
     }
 }
 
-depositar.addEventListener("click",depositarx)
+retirar.addEventListener("click",retirarx)
