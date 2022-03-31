@@ -49,7 +49,17 @@ function redirectHome (){
 
 loginButton.addEventListener("click", redirectHome)
 
-var clienteSeleccionado = JSON.parse (localStorage.getItem ("cuenta"));
-    console.log(clienteSeleccionado)
+function getlocalStorage (){
+    if (localStorage.getItem ("cuenta")){
+        var clienteSeleccionado = JSON.parse (localStorage.getItem ("cuenta"));
+        console.log(clienteSeleccionado)
+    } else{
+        console.log ("No hay entradas")
+    }
+
+}
+
+getlocalStorage();
+
 
 
