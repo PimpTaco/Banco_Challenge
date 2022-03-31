@@ -59,6 +59,7 @@ input{
     width: 200px;
     height: 30px;
     margin: 10px;
+    text-align: center;
 }
 
 button{
@@ -69,3 +70,6 @@ button{
     margin: 10px;
 }
 
+.none {
+    display: flex;
+}
