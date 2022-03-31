@@ -1,7 +1,7 @@
  var cuentas = [
         {Nombre: "Marcos Vleeschower", Saldo: 300, Password:"Spartan17", Usuario:"Vleeschowder"},
         {Nombre: "Manuel Ramos", Saldo: 666, Password:"yungtaco420", Usuario:"PimpTaco"},
-        {Nombre: "Salvador Soto", Saldo: 420, Password:"bigsoto69", Usuario:"TheSotoKing"}
+        {Nombre: "Salvador Soto", Saldo: 420, Password:"chava12", Usuario:"TheSotoKing"}
     ]
 
 
@@ -31,7 +31,7 @@ function redirectHome (){
         var cuenta = cuentas[1]    
         localStorage.setItem ("cuenta", JSON.stringify(cuenta))
 
-    } else if (userSelected === "TheSotoKing" && passwordSelected === "bigsoto69"){
+    } else if (userSelected === "TheSotoKing" && passwordSelected === "chava12"){
         location.href ="home.html"
         var cuenta = cuentas[2]
         localStorage.setItem ("cuenta", JSON.stringify(cuenta))
