@@ -1,0 +1,32 @@
+.container-fluid{
+    font-family: 'Fira Sans', sans-serif;
+    background-color:#D2E4F1;
+}
+#a{
+
+    height: 100px;
+    margin: 10px;
+   
+}
+#b{ 
+    height:400px;
+   
+}
+#final{
+    height:150px;
+    background-color:#D2E4F1;
+
+}
+#botonmenuprincipal{
+    height: 100px;
+    width: 425px;
+    background-color: #2952ac;
+}
+#botonsalir{
+    
+    height: 100px;
+    width: 425px;
+}
+#saldo{
+    text-align: center;
+}

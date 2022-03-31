@@ -1,0 +1,50 @@
+.container-fluid{
+    font-family: 'Fira Sans', sans-serif;
+    background-color:#D2E4F1;
+}
+#a{
+
+    height: 100px;
+    margin: 10px;
+   
+}
+#b{ 
+    height:200px;
+   
+}
+#y{
+    height:200px;
+}
+
+
+
+#final{
+    height:150px;
+    background-color:#D2E4F1;
+
+}
+#botonmenuprincipal{
+    height: 100px;
+    width: 425px;
+    background-color: #2952ac;
+}
+#botonsalir{
+    
+    height: 100px;
+    width: 425px;
+}
+#saldo{
+    text-align: center;
+}
+#depositar{
+    background-color: #2952ac;
+    height: 100px;
+    width: 425px;
+}
+#deposito{
+    height: 100px;
+    width:425px;
+    font-size: 70px;
+    text-align: right;
+}
+
