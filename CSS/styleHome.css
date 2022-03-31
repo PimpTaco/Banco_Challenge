@@ -7,7 +7,7 @@ body{
     background-color: #D2E4F1 !important;
 }
 .containerNavBar img{
-    width: 7%;
+    height: 50px;
 }
 
 .row-opciones .col-2{
@@ -48,7 +48,7 @@ body{
 .row-indicaciones p{
     color: #2952ac;
     font-size: 20px;
-    width: 95%;
+    width: 85%;
     font-weight: bold;
 }
 
@@ -62,6 +62,7 @@ body{
     float: right;
     margin-top: 100px;
     margin-right: 50px;
+    padding-top: 20px;
 }
 
 
@@ -69,6 +70,10 @@ body{
  @media screen and (max-width: 1400px) {
     .row-opciones a{
         height: 280px;
+    }
+
+    .row-indicaciones img {
+        width: 6%;
     }
 }
 
@@ -85,6 +90,14 @@ body{
         #botonsalir {
             height: 80px;
             width: 400px;
+        }
+
+        #botonsalir {
+            padding-top: 17px;
+        }
+
+        .row-indicaciones img {
+            width: 8%;
         }
 }
 
@@ -113,6 +126,14 @@ body{
         height: 70px;
         width: 330px;
     }
+
+    #botonsalir {
+        padding-top: 12px;
+    }
+
+    .row-indicaciones img {
+        width: 10%;
+    }
 }
 
 
@@ -135,6 +156,10 @@ body{
         margin-right: 1%;
         margin-left: 1%;
     }
+
+    .row-indicaciones img {
+        width: 13%;
+    }
 }
 
 
@@ -154,17 +179,13 @@ body{
         margin-left: 5%;
         margin-right: 5%;
     }
+
+    .row-indicaciones img {
+        width: 15%;
+    }
+
+    .row-indicaciones p{
+        font-size: 16px;
+    }
 }
 
-@media screen and (max-width: 450px) {
-    
-}
-
-
-@media screen and (max-width: 400px) {
-    
-}
-
-@media screen and (max-width: 350px) {
-    
-}
